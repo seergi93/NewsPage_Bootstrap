@@ -22,3 +22,11 @@ body{
         z-index: 1;
         
 }
+#imagenResponsible{
+    max-width: 100%; 
+    height: auto;
+}
+
+
+
+
