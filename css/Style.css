@@ -26,6 +26,31 @@ body{
     max-width: 100%; 
     height: auto;
 }
+ 
+ #capEsquerra{
+     right: 10%;
+ }
+
+ #capDreta{
+     left: 10%;
+ }
+ 
+ .publicidadEscritori{
+     float: right;
+     width: 300px;
+     height: 7000px;
+     background-color: red;
+ }
+
+  .publicidadMovil{
+    
+    
+     height: 100px;
+     background-color: red;
+ }
+
+ 
+ 
 
 
 
