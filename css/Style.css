@@ -1,57 +1,50 @@
-body{
+body {
     background-color: black;
     z-index: 0;
 }
-.titol{
+
+.titol {
     z-index: 1;
     position: relative;
     left: 10%;
 }
 
-#imatgeTitol{
-
-        background:url("../img/header.jpg") 50% 50% no-repeat;background-size:cover;
-        z-index: 0;
-    }
-
-#lletraBlanca{
-       color: white;
+#imatgeTitol {
+    background: url("../img/header.jpg") 50% 50% no-repeat;
+    background-size: cover;
+    z-index: 0;
 }
-#fondo{
-        background-color: white;
-        z-index: 1;
-        
+
+#lletraBlanca {
+    color: white;
 }
-#imagenResponsible{
-    max-width: 100%; 
+
+#fondo {
+    background-color: white;
+    z-index: 1;
+}
+
+#imagenResponsible {
+    max-width: 100%;
     height: auto;
 }
- 
- #capEsquerra{
-     right: 10%;
- }
 
- #capDreta{
-     left: 10%;
- }
- 
- .publicidadEscritori{
-     float: right;
-     width: 300px;
-     height: 7000px;
-     background-color: red;
- }
+#capEsquerra {
+    right: 10%;
+}
 
-  .publicidadMovil{
-    
-    
-     height: 90px;
-     background-color: red;
- }
+#capDreta {
+    left: 10%;
+}
 
- 
- 
+.publicidadEscritori {
+    float: right;
+    width: 300px;
+    height: 7000px;
+    background-color: red;
+}
 
-
-
-
+.publicidadMovil {
+    height: 90px;
+    background-color: red;
+}

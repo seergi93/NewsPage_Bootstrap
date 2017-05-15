@@ -1,14 +1,19 @@
-[
-    {
-        "firstName": "John",
-        "lastName": "Doe"
+[{
+        "id": "1",
+        "slug": "andalucia",
+        "comunidad": "Andalucía",
+        "capital_id": "6152"
     },
     {
-        "firstName": "Anna",
-        "lastName": "Smith"
+        "id": "2",
+        "slug": "aragon",
+        "comunidad": "Aragón",
+        "capital_id": "8113"
     },
     {
-        "firstName": "Peter",
-        "lastName": "Jones"
+        "id": "3",
+        "slug": "principado-de-asturias",
+        "comunidad": "Principado de Asturias",
+        "capital_id": "5009"
     }
 ]
