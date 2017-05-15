@@ -1,53 +1,26 @@
-//carregar noticies QuePodemFer
-
-
-
-$(function() {
-    //cargar comunidades
-    $.getJSON("data/comunidades.json", function(jsonObject) {
-        ponerComunidades(jsonObject);
-    });
-
-    //onclick en verinfo
-    $("#omplirJS").click(function() {
-        var v = $("#comunidades").val();
-        if (v != 0) window.location = "/comunidad/" + $("#comunidades").val();
-        else alert('Selecciona una comunidad');
-    });
-});
-
-function ponerComunidades(json) {
-    $.each(json, function(i, comunidad) {
-        //dos formas de hacer lo mismo, la segunda es más adecuada.
-        //$("#comunidades").append( "<option value='" + comunidad.slug + "'>" + comunidad.comunidad + "</option>" );
-        $('#comunidades').append($('<option>', { value: comunidad.slug, text: comunidad.comunidad }));
-        //"slug" es la parte de la url, por si hay que visitar la página de la comunidad (no va con vuestro proyecto, es un ejemplo)
+function lee_json() {
+    $.getJSON("data/QuePodemFer.json", function(jsonObject) {
+        alert("titol: ");
+        $.each(datos["primos"], function(idx, primo) {
+            alert("Numero primo: " + primo);
+        });
     });
 }
 
 
+//Event de scroll
 
 $(document).ready(function() {
     var count = 0;
-
-    // evento que se ejecuta cuando se mueve el scroll de la pagina
     $(document).scroll(function() {
 
-        // si esl scroll de la pagina mas la altura es superior
-        // a la altura del documento
         if ($(document).scrollTop() + $(window).height() >= $(document).height()) {
 
-
-
-            document.getElementById("omplirJS").innerHTML = ;
-
+            document.getElementById("omplirJS").innerHTML = "PROVAM QUE VA BE SCROLL";
 
 
             count += 1;
-            //
-            // Aqui podria ir una función ajax para cargar el contenido
-            // de base de datos o de PHP...
-            // añadimos al final de la página unas lineas de ejemplo
+
         }
     });
 });
