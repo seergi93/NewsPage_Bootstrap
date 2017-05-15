@@ -1,8 +1,8 @@
 [{
-        "id": "1",
-        "slug": "andalucia",
-        "comunidad": "Andalucía",
-        "capital_id": "6152"
+        "titol": "Noticia1",
+        "descripcio": "andalucia",
+        "descripcioColapsada": "Andalucía",
+        "imatge": "6152"
     },
     {
         "id": "2",
