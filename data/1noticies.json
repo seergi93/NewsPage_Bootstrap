@@ -1,0 +1,34 @@
+[{
+        "id": "noticia_4",
+        "collapse": "collapse",
+        "titol": "Prova Titol",
+        "descripcio": "Prova descripció",
+        "descripcio2": "img/prova.jpg",
+        "data": "01/01/1900",
+        "imatge": "img/prova.jpg",
+        "url": "adada"
+
+
+
+    },
+    {
+        "id": "noticia_4",
+        "collapse": "collapse",
+        "titol": "Prova Titol",
+        "descripcio": "Prova descripció",
+        "descripcio2": "img/prova.jpg",
+        "data": "01/01/1900",
+        "imatge": "img/prova.jpg",
+        "url": "adada"
+    },
+    {
+        "id": "noticia_4",
+        "collapse": "collapse",
+        "titol": "Prova Titol",
+        "descripcio": "Prova descripció",
+        "descripcio2": "img/prova.jpg",
+        "data": "01/01/1900",
+        "imatge": "img/prova.jpg",
+        "url": "adada"
+    }
+]

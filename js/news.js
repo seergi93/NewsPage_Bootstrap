@@ -1,56 +1,98 @@
-function lee_json() {
-    $.getJSON("data/QuePodemFer.json", function(jsonObject) {
-        alert("titol: ");
-        $.each(datos["primos"], function(idx, primo) {
-            alert("Numero primo: " + primo);
-        });
-    });
-}
-
-
-//Event de scroll
-
-//var imagen = document.createElement("img");
-
 $(document).ready(function() {
-    var count = 0;
+
+    var i = 0;
+
+
+    function cargarJSON(i) {
+        fichero = "data/" + i + "noticies.json";
+        $.getJSON(fichero, function(jsonObject) {
+            ponerNoticias(jsonObject);
+        });
+    }
+
     $(document).scroll(function() {
 
-        if ($(window).scrollTop() + $(window).height() > $(document).height() - 10) {
-
-
-            document.getElementById("omplirJS").innerHTML = "PROVAM QUE VA BE SCROLL";
-            //imagen.setAttribute("src", "img/prova.jpg");
-            // var bloq = document.getElementById("omplirJS");
-            //count += 1;
-
+        if (($(window).scrollTop() + $(window).height() > $(document).height() - 10) && (i < 2)) {
+            cargarJSON(i + 1);
+            i++;
         }
     });
+
+    function ponerNoticias(json) {
+        $.each(json, function(j, item) {
+
+
+
+            $(item).append(item.titol);
+
+
+
+
+
+
+            /*
+
+            html...
+
+            <div id=container>
+            hola
+            </div>
+
+            js...
+
+            var j = "[{'texto':'hola'}]";
+
+             $.each(json, function(j, item) {
+
+            */
+
+
+        });
+    }
+
 });
 
 /*
 
-function() {
-    $(window).scroll(function() {
-        // How much the user has scrolled
-        const scrollTop = $(window).scrollTop();
-        // windowHeigth is the height of the window
-        const windowHeight = $(window).height();
-        // documentHeight could be larger than windowHeight
-        const documentHeight = $(document).height();
-        const offset = 100;
-        // add windowHeight is neccessary to get to the bottom
-        if (scrollTop + windowHeight > documentHeight - offset) {
-            const divs = $('div').length;
-            $('body').append(() => {
-                let result = '';
-                // append three new elements
-                for (let i = divs + 1; i <= divs + 3; i++) {
-                    result += `<div>Content ${i}</div>`
-                }
-                return result;
-            });
+ $(document).scroll(function() {
+
+        if (($(window).scrollTop() + $(window).height() > $(document).height() - 10) && (i < 2)) {
+
+            cargarJSON(i + 1);
+
+           
+
+            i++;
+
         }
     });
-}());
+
+ var col = document.createElement("div");
+            col.className = "col col-sm-6";
+            var a = document.createElement("a");
+            a.setAttribute('href', "#");
+            var h3 = document.createElement("h3");
+            h3.className = "notTitle";
+            h3.textContent = item.id;
+            var h5 = document.createElement("h5");
+            h5.className = "date";
+            h5.textContent = json[i].collapse;
+            var n = document.createElement("div");
+            n.className = "not img-rounded";
+            var img = document.createElement("img");
+            img.src = json[i].titol;
+            img.alt = "image New";
+            img.className = "";
+            var des = document.createElement("p");
+            des.className = "desc";
+            des.textContent = json[i].descripcio;
+
+            n.appendChild(img);
+            n.appendChild(des);
+            a.appendChild(h3);
+            a.appendChild(h5);
+            a.appendChild(n);
+            col.appendChild(a);
+            row.appendChild(col);
+
 */
