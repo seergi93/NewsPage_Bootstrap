@@ -13,6 +13,13 @@ $(function() {
 
     }
 
+    $("#target").click(function() {
+        cargarJSON(i + 1);
+        cargarJSON(i + 2);
+        i = 3;
+    });
+
+
 
 
     $(document).scroll(function() {

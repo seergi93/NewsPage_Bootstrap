@@ -7,6 +7,10 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta propiedad="og: url" contenido="http://www.sergiroberti.com " />
+    <meta propiedad="og: tipo" contenido="Pàgina de noticies" />
+    <meta propiedad="og: título de" contenido="Pàgina de noticies" />
+    <meta propiedad="og: Descripción" contenido="Fet amb bootstrap" />
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="css/Style.css">
@@ -15,12 +19,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="js/news.js"></script>
-    <meta propiedad="og: url" contenido="http://www.sergiroberti.com " />
-    <meta propiedad="og: tipo" contenido="Pàgina de noticies" />
-    <meta propiedad="og: título de" contenido="Pàgina de noticies" />
-    <meta propiedad="og: Descripción" contenido="Fet amb bootstrap" />
+
+    <link rel="alternate" type="application/rss+xml" title="rss de l'aplicació" href="RSS.xml">
 </head>
 
 <body>
@@ -28,12 +29,12 @@
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-        <a class="navbar-brand" href="#">Notícies</a>
+        <a class="navbar-brand" href="">Notícies</a>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Què podem fer? <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" id="target" href="#">Cargar totes les notícies <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Estadístiques</a>
