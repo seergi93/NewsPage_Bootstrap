@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(function() {
 
     var i = 0;
 
@@ -7,8 +7,13 @@ $(document).ready(function() {
         fichero = "data/" + i + "noticies.json";
         $.getJSON(fichero, function(jsonObject) {
             ponerNoticias(jsonObject);
+
         });
+
+
     }
+
+
 
     $(document).scroll(function() {
 
@@ -18,81 +23,25 @@ $(document).ready(function() {
         }
     });
 
-    function ponerNoticias(json) {
-        $.each(json, function(j, item) {
-
-
-
-            $(item).append(item.titol);
-
-
-
-
-
-
-            /*
-
-            html...
-
-            <div id=container>
-            hola
-            </div>
-
-            js...
-
-            var j = "[{'texto':'hola'}]";
-
-             $.each(json, function(j, item) {
-
-            */
-
-
-        });
-    }
-
 });
 
-/*
+function ponerNoticias(json) {
+    $.each(json, function(j, item) {
 
- $(document).scroll(function() {
 
-        if (($(window).scrollTop() + $(window).height() > $(document).height() - 10) && (i < 2)) {
+        $('.insertarJson').append('<div class="card">' +
+            item.imatge +
+            '<div class="card-block">' +
+            '<h2 class="card-title">' + item.titol + '.</h2>' +
+            '<p class="card-text">' + item.descripcio +
+            '</p>' +
+            '<div class="row justify-content-around">' +
+            '<button class="btn btn-success col col-lg-2 col-md-4 col-xs-2" type="button" data-toggle="collapse" data-target="#' + item.id + '"' +
+            'aria-expanded="false" aria-controls="collapseExample"> Llegir més </button>' +
+            '<div class="fb-share-button btn btn-primary col col-lg-2 col-md-4 col-xs-2" data-href="http://sergiroberti.com/" data-layout="button" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore " id="lletraBlanca" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fsergiroberti.com%2F&amp;src=sdkpreparse">Comparteix</a></div>' +
+            '<div class="collapse" id="' + item.id + '">' +
+            '<div class="card-text"><p></p>' + item.descripcio2 +
+            ' </div> </div>  </p>  </div></div></div><p></p>');
 
-            cargarJSON(i + 1);
-
-           
-
-            i++;
-
-        }
     });
-
- var col = document.createElement("div");
-            col.className = "col col-sm-6";
-            var a = document.createElement("a");
-            a.setAttribute('href', "#");
-            var h3 = document.createElement("h3");
-            h3.className = "notTitle";
-            h3.textContent = item.id;
-            var h5 = document.createElement("h5");
-            h5.className = "date";
-            h5.textContent = json[i].collapse;
-            var n = document.createElement("div");
-            n.className = "not img-rounded";
-            var img = document.createElement("img");
-            img.src = json[i].titol;
-            img.alt = "image New";
-            img.className = "";
-            var des = document.createElement("p");
-            des.className = "desc";
-            des.textContent = json[i].descripcio;
-
-            n.appendChild(img);
-            n.appendChild(des);
-            a.appendChild(h3);
-            a.appendChild(h5);
-            a.appendChild(n);
-            col.appendChild(a);
-            row.appendChild(col);
-
-*/
+}

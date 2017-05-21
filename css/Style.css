@@ -19,6 +19,15 @@ body {
     color: white;
 }
 
+#fondoNegra {
+    background-color: black;
+    height: 10px;
+}
+
+.card {
+    margin: 10px;
+}
+
 #fondo {
     background-color: white;
     z-index: 1;

@@ -1,34 +1,25 @@
 [{
         "id": "noticia_4",
-        "collapse": "collapse",
-        "titol": "Prova Titol",
-        "descripcio": "Prova descripció",
-        "descripcio2": "img/prova.jpg",
-        "data": "01/01/1900",
-        "imatge": "img/prova.jpg",
-        "url": "adada"
-
-
-
+        "titol": "A Eivissa, les zones verdes són el nucli dels barris nous",
+        "descripcio": " <p>La ciutat d’Eivissa és la mostra dels canvis que durant dècades ha patit l’ideal d’urbanisme al llarg dels segles. Des dels carrerons estrets i amb pronunciades pujades i baixades a l’interior de les mirades del segle VI fins a l’Eixample de mitjan segle XX, la manera de construir les ciutats ha canviat molt.</p> ",
+        "descripcio2": "  <p>Aquests darrers anys, ha aparegut un element que, als nous barris que es projecten, s’ha convertit en necessari: els parcs i zones verdes. A diferència de Palma, els ajuntaments consideren que als municipis d’Eivissa “el que es podria considerar com a \r\n    pulmó verd no existeix perquè no és necessari”. Així ho expliquen des de l’Ajuntament de Santa Eulària, el qual recorda que estan envoltats de camp i que la mida dels nuclis urbans “no és tan gran com perquè calgui un espai verd que ajudi a millorar\r\n    la qualitat de l’aire, oferir zones de descans i un entorn una mica més natural que l’asfalt”.</p>\r\n<p>Tot i això, a la UA-04, el darrer barri projectat per l’Ajuntament a la zona de Cas Capità i que va ser presentat l’estiu passat, sí que es preveu com a nucli de la nova àrea residencial “una gran zona de jardins que connecta el carrer Sant Joan amb el\r\n    passeig Marítim”. Aquest indret estarà fet amb materials naturals i reciclables que emprarà un sistema de terrasses o bancals per superar el desnivell que hi ha entre un punt i l’altre. Constarà d’una zona de pas, definida per una passarel·la de fusta\r\n    i una gran pèrgola amb plantes de guia mediterrànies que permetran tenir un sostre vegetal per fer un espai d’ombra que convidi al passeig.</p>\r\n<p>D’altra banda, a Vila, el nou PGOU que ha de substituir l’actual, de 1987 (després que els tribunals haguessin tombat el de 2009), preveu per al reformat barri de Ca n’Escandell “un gran parc central amb una zona verda de 78.000 metres quadrats, a més\r\n    de la inclusió d’equipaments educatius i esportius”. També s’està pendent de l’aprovació d’un pla especial per a ses Feixes, una zona protegida de canyes i rierols que l’alcalde, Rafel Ruiz, ha definit algun cop com “el pulmó de la ciutat”.</p>\r\n  ",
+        "data": "20/05/2017",
+        "imatge": "<img class=\"img-fluid card-img-top\" src=\"img/noticia4.jpg\" alt=\"Imatge noticia 4\">"
     },
     {
-        "id": "noticia_4",
-        "collapse": "collapse",
-        "titol": "Prova Titol",
-        "descripcio": "Prova descripció",
-        "descripcio2": "img/prova.jpg",
-        "data": "01/01/1900",
-        "imatge": "img/prova.jpg",
-        "url": "adada"
+        "id": "noticia_5",
+        "titol": "Es dispara la contaminació per ozó 'dolent' a les Illes Balears",
+        "descripcio": " <p>Ecologistes en Acció ha denunciat aquest dimecres que s'ha disparat la contaminació per ozó troposfèric a les Balears a causa de \"l'intens trànsit rodat, marítim i aeri que suporten les Illes i l'increment del consum d'electricitat produïda en centrals tèrmiques per l'inici de la temporada turística\". </p> ",
+        "descripcio2": "<p>El valor objectiu per la protecció de la salut humana s'ha \"desbordat\" durant el 2017, segons les dades de les estacions de control d'Alcúdia o Parc Bit a Mallorca, Pous o Sant Lluís a Menorca i Ca’n Misses o Dalt Vila a Eivissa. La normativa diu que\r\n    aquests valors no han de superar els 120 micrograms d'ozó per metre cúbic d'aire, mesurats en períodes de 8 hores, més de 25 dies a l'any</p>\r\n<p>Els ecologistes demanen prendre \"les mesures necessàries per evitar que es repeteixi un episodi tan perllongat de contaminació per ozó\" i que haurien d'incloure la limitació del trànsit urbà i interurbà, a més del funcionament de les centrals termoelèctriques.\r\n    Segons l'organització, \"el Govern acumula més d'una dècada de retard en la redacció dels Plans de Millora de la Qualitat de l'Aire\", que són obligatoris des de 2004. </p>\r\n<p>La situació més greu es va produir a Menorca el 19 de març, quan es va arribar a una mitjana horària de 185 micrograms d'ozó per metre cúbic. Segons explica Ecologistes en Acció, es va incomplir la normativa sobre la qualitat de l'aire que obliga a informar\r\n    la població que prengui mesures d'autoprotecció si el llindar supera els 180 micrograms per metre cúbic. </p>\r\n<p>L'ozó troposfèric, conegut com a ozó 'dolent', és el contaminant que més afecta les Illes Balears a causa de l'increment de les temperatures mitjanes i de les situacions meteorològiques extremes durant la primavera i l'estiu, com a resultat del canvi\r\n    climàtic.</p>\r\n<p>Inhalar-lo provoca un increment dels riscos de malalties respiratòries agudes i reducció de la funció pulmonar, a més d'un agreujament de patologies cardiovasculars. L'ozó troposfèric és també perjudicial per a la vegetació, ja que danya els boscos i\r\n    redueix la productivitat dels cultius. </p>",
+        "data": " 19/04/2017",
+        "imatge": "<img class=\"img-fluid card-img-top\" src=\"img/noticia5.jpg\" alt=\"Imatge noticia 5\">"
     },
     {
-        "id": "noticia_4",
-        "collapse": "collapse",
-        "titol": "Prova Titol",
-        "descripcio": "Prova descripció",
-        "descripcio2": "img/prova.jpg",
-        "data": "01/01/1900",
-        "imatge": "img/prova.jpg",
-        "url": "adada"
+        "id": "noticia_6",
+        "titol": "Solucions per a un turisme sostenible: arrenca el festival Posidònia Mallorca",
+        "descripcio": "El festival Posidònia Mallorca es durà a terme els dies 19 i 20 de maig a Palma i el 27 de maig a Deià. \"Ens consideram un festival científic i ambiental\" i \"creim que és important crear un espai de reflexió sobre el turisme sostenible i recollir idees inspiradores i models que funcionen a altres llocs\", explica l'organitzador, Alberto Fraile.",
+        "descripcio2": "\r\n<p>Aquest esdeveniment cerca contribuir a frenar l'amenaça que pateix la posidònia oceànica. Les activitats del programa, totes gratuïtes, estan dirigides a infants i adults, i pretenen convertir-se en un lloc de trobada per a la recerca de solucions per a un turisme sostenible.</p>\r\n<p>En el marc del festival tindrà lloc el primer Fòrum de Turisme Sostenible, en el qual entitats de Mallorca presentaran idees i es farà una taula rodona sobre els reptes i estratègies per arribar a la sostenibilitat amb actors turístics i experts en economia, desenvolupament sostenible i innovació tecnològica en turisme.</p>\r\n",
+        "data": "18/05/2017",
+        "imatge": "<div class=\"embed-responsive embed-responsive-16by9\"><iframe class=\"embed-responsive-item\" src=\"https://www.youtube.com/embed/zC1Pw_hIJFg\"></iframe>\r\n</div>"
     }
 ]
