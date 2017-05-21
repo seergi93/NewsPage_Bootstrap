@@ -20,12 +20,17 @@
 1. Realitza la maquetació del projecte. Entrega un breu document amb l'análisi i la planificació al README.md (valen fotos d'esquemes del quadern).
 
   * El disseny inicial s'aproxima al definitiu, però hi ha canvis de millora.
-![Planificació](https://octodex.github.com/images/yaktocat.png)
-
+![Planificació](https://github.com/seergi93/NewsPage_Bootstrap/blob/master/img/pla.jpg)
+  * Vaig partir de el projecte de urbinapro, i amb la pàgina oficial de bootstrap 4, he anat fent canvis.
 
 2. Presenta news.html amb 3 notícies (ja escrites al html, no carregar amb js) i emmagatzema 6 noticies més en dos fitxers, data/1.json data/2.json per ser carregades amb js.
 
+  * Es compleix.
+
 3. Codifica news.js en jQuery per fer: "botó carregar més notícies" i "scroll bottom" que, en ser activat qualsevol d'ells, faci una càrrega i presentació de més dades (fins a dues vegades 1.json, 2.json)
+
+  * Scroll , OK.
+  * Falta botó de carregar noticies
 
 4. Inclou rss.xml (especificat al tema 6)
 
