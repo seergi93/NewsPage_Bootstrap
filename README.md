@@ -30,7 +30,7 @@
 3. Codifica news.js en jQuery per fer: "botó carregar més notícies" i "scroll bottom" que, en ser activat qualsevol d'ells, faci una càrrega i presentació de més dades (fins a dues vegades 1.json, 2.json)
 
   * Scroll , OK.
-  * Falta botó de carregar noticies
+  * Botó a carregar totes les noticies.
 
 4. Inclou rss.xml (especificat al tema 6)
 
