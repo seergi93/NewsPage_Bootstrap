@@ -2,7 +2,6 @@ $(function() {
 
     var i = 0;
 
-
     function cargarJSON(i) {
         fichero = "data/" + i + "noticies.json";
         $.getJSON(fichero, function(jsonObject) {
@@ -20,10 +19,7 @@ $(function() {
     });
 
 
-
-
     $(document).scroll(function() {
-
         if (($(window).scrollTop() + $(window).height() > $(document).height() - 10) && (i < 2)) {
             cargarJSON(i + 1);
             i++;
@@ -51,4 +47,10 @@ function ponerNoticias(json) {
             ' </div> </div>  </p>  </div></div></div><p></p>');
 
     });
+}
+
+self.onscroll = function() {
+    var top = self.pageYOffset || document.body.scrollTop;
+    var visiible = window.innerHeight;
+    return top > banner.style.height - visible && (banner.style.position = 'fixed');
 }

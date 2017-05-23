@@ -3,6 +3,18 @@ body {
     z-index: 0;
 }
 
+@media (max-width: 800px) {
+    .margeDreta {
+        margin: 5px 5px 0px 5px;
+    }
+}
+
+@media (min-width: 800px) {
+    .margeDreta {
+        margin: 5px 305px 0px 5px;
+    }
+}
+
 .titol {
     z-index: 1;
     position: relative;
@@ -22,10 +34,6 @@ body {
 #fondoNegra {
     background-color: black;
     height: 10px;
-}
-
-.card {
-    margin: 10px;
 }
 
 #fondo {
@@ -49,9 +57,13 @@ body {
 .publicidadEscritori {
     float: right;
     width: 300px;
-    height: 2000px;
-    background-color: red;
-    margin-left: 10px;
+    height: 3000px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-image: url("../publicidad/1.png");
+    background-image: url("../publicidad/2.png");
+    background-image: url("../publicidad/3.png");
+    background-image: url("../publicidad/4.png");
 }
 
 .publicidadMovil {
