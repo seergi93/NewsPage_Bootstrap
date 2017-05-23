@@ -48,9 +48,3 @@ function ponerNoticias(json) {
 
     });
 }
-
-self.onscroll = function() {
-    var top = self.pageYOffset || document.body.scrollTop;
-    var visiible = window.innerHeight;
-    return top > banner.style.height - visible && (banner.style.position = 'fixed');
-}

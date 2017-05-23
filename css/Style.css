@@ -57,16 +57,14 @@ body {
 .publicidadEscritori {
     float: right;
     width: 300px;
-    height: 3000px;
+    height: 2612px;
     margin-left: 5px;
     margin-right: 5px;
-    background-image: url("../publicidad/1.png");
-    background-image: url("../publicidad/2.png");
-    background-image: url("../publicidad/3.png");
-    background-image: url("../publicidad/4.png");
+    background-image: url("../img/publi.png");
 }
 
 .publicidadMovil {
     height: 90px;
     background-color: red;
+    background-image: url("../img/publi2.png");
 }
