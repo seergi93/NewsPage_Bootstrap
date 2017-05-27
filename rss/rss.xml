@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>Pàgina de notícies</title>
+        <link>https://github.com/seergi93/NewsPage_Bootstrap/blob/master/index.html</link>
+        <description>Noticies sobre medi ambient</description>
+        <item>
+            <title>Colau crearà l'empresa pública d'energia més gran de l'Estat.</title>
+            <link>https://github.com/seergi93/NewsPage_Bootstrap/blob/master/news1.html</link>
+            <description>El ple de l’Ajuntament de Barcelona aprovarà avui la creació d’una empresa pública per comercialitzar, en una primera fase, l’energia que consumeixin els edificis municipals, l’enllumenat públic i 20.000 cases. La nova empresa,
+                            que es dirà Barcelona Energia, començarà a treballar per al mateix Ajuntament a finals del 2018 i, després de 3 mesos de prova, s’obrirà a la ciutadania.</p> </description>
+        </item>
+        <item>
+            <title>El Govern vol obrir Cabrera a "esdeveniments", en contra d'ecologistes i Agents de Medi Ambient.</title>
+            <link>https://github.com/seergi93/NewsPage_Bootstrap/blob/master/news2.html</link>
+            <description>El Patronat de Cabrera s'ha pronunciat avui favor de l'esborrany del nou Pla Rector d'Ús i Gestió (PRUG) del Parc Nacional de Cabrera. Ho ha fet amb catorze vots a favor, l'abstenció de l'Institut Oceanogràfic i de la UIB, i els vots en contra del GOB,
+                        Oceana i els Agents de Medi Ambient.</description>
+        </item>
+    </channel>
+</rss>
